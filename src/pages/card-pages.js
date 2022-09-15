@@ -5,18 +5,14 @@ import Header from "./sections/header/header";
 //Importing CSS
 import "./pages-styling.css";
 //importing images
-import Laptop from "../assets/macbook-pro-test.webp";
+// import Laptop from "../assets/macbook-pro-test.webp";
 
 export default function CardPage() {
   return (
     <div className="bg-color">
       <Header />
       <div className="carousel-card bg-color">
-        <Cards imageUrl={Laptop} name="macbook-pro" />
-        <Cards imageUrl={Laptop} name="macbook-pro" />
-        <Cards imageUrl={Laptop} name="macbook-pro" />
-        <Cards imageUrl={Laptop} name="macbook-pro" />
-        <Cards imageUrl={Laptop} name="macbook-pro" />
+        <Cards />
       </div>
     </div>
   );

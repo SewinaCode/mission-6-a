@@ -11,6 +11,7 @@ export default function Cards({
   quantity,
   imageUrl,
 }) {
+  //Put code to transfer data here. use array.map() function - means whenever the database is updated it will create another card with new document from MongoDB.
   return (
     <div
       style={{
