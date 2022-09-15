@@ -1,0 +1,27 @@
+h1 {
+    color: black;
+    font-size: 50px;
+    margin: 0;
+    padding: 1% 0%;
+    text-align: center;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 20% 1% 20%;
+}
+
+.bg-color {
+    background-color: #DCE4EC3B;
+}
+
+.carousel-card {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2% 20% 1% 20%;
+}
