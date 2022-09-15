@@ -24,17 +24,17 @@ export default function Cards({
       <img src={imageUrl} alt={name} />
       <div>
         <h2>
-          <em>Product name</em>: {product}
+          <b>Product name</b>: {product}
         </h2>
       </div>
       <div>
         <h2>
-          <em>Product Description</em>: {description}
+          <b>Product Description</b>: {description}
         </h2>
       </div>
       <div>
         <h2>
-          <em>Quantity</em>: {quantity}
+          <b>Quantity</b>: {quantity}
         </h2>
       </div>
     </div>
