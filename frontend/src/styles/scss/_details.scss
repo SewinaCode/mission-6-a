@@ -1,0 +1,13 @@
+@import './variables';
+
+section {
+    @include FlexCenter(column, center, left);
+
+    h2 {
+        @include AbelFontVal($med-weight, $sec-padding, $darkblue, $med-sml, none); 
+    }
+
+    p {
+        @include AbelFontVal($med-weight, $med-med, $lightblue, $lrg-two, line-through); 
+    }
+}

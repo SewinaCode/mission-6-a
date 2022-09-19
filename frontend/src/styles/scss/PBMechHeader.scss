@@ -1,0 +1,43 @@
+@import './variables';
+
+// .header-page {
+//     // background-color: $darkblue;
+// }
+
+.headerimg {
+    width: $full-width;
+    height: 145px;
+    margin: $no-margins;
+}
+
+.breadcrumbs-sec {
+    background-color: $grey-black;
+    padding: $padding-xsml 0px;
+}
+
+.breadcrumbs {
+    @include FlexCenter(row, left, center);
+    margin: $no-margins;
+    padding: 0px $sec-padding;
+
+    img {
+        // width: auto;
+        width: $smaller-3xlrg;
+        height: $smaller-3xlrg;
+    }
+
+    .arrow-img {
+        width: $padding-xxsml;
+        height: $padding-xxsml;
+    }
+
+    h3 {
+        @include InterFontVal($smaller-xxlrg, $lrg-weight, $lightgrey, $med-4xsml);
+        padding: 0px $smaller-sml;
+        margin: $no-margins;
+    }
+
+    .selected-laptop {
+        color: $orange;
+    }
+}

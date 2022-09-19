@@ -11,8 +11,9 @@ export default function CardPage() {
   return (
     <div className="bg-color">
       <Header />
-        <div className="carousel-card bg-color">
+      <div className="carousel-card bg-color">
         <Cards />
       </div>
+    </div>
   );
 }
