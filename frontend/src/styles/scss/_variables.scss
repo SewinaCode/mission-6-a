@@ -13,6 +13,7 @@ $sec-padding: 31px;
 $black: black;
 $grey-black: rgba(2, 23, 36, 0.75);
 $lightgrey: #BFBFBF;
+$ashgrey: rgba(26, 26, 26, 0.24);
 $orange: #F08222;
 $darkblue: #0D4F77;
 $lightblue: #2C99CA;
@@ -65,7 +66,7 @@ $lrg-two: 70px;
 }
 
 @mixin AbelFontVal($weight, $size, $textcolor, $lineheight, $decoration) {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: $size;
     font-weight: $weight;
     color: $textcolor;
@@ -79,9 +80,10 @@ $lrg-two: 70px;
     background-color: $backgroundColor;
 }
 
-@mixin BorderBtn ($border, $backgroundColor, $borderRadius) {
+@mixin BorderBtn ($border, $backgroundColor, $borderRadius, $margin, $padding) {
     border: $border;  
     background-color: $backgroundColor;
     border-radius: $borderRadius;
-    margin: 0 $smaller-sml;
+    margin: $margin;
+    padding: $padding;
 }

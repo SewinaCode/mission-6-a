@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CardPage from "./pages/Home";
+// import CardPage from "./pages/Home";
 import Home from "./pages/Home";
 import PageNotFound from "./pages/PageNotFound";
-import ProductPage from "./pages/pbmech-frontpage";
+// import ProductPage from "./pages/pbmech-frontpage";
 
 function App() {
   return (
