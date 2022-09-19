@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles/scss/styles.css";
 import LaptopSale from "../../assets/laptop-sale.png";
 import QuantityPlus from "../../components/buttons/quantity/plus-btn";
+import { AddtoCart, CompareWPlus } from "../../components/buttons/compare";
 
 export default function Details() {
   return (
@@ -25,6 +26,10 @@ export default function Details() {
         you a smooth workday, every day.
       </p>
       <QuantityPlus />
+      <div className="cart-compare-btns">
+        <AddtoCart />
+        <CompareWPlus />
+      </div>
     </section>
   );
 }

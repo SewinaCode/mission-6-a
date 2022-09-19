@@ -2,14 +2,27 @@
 
 .orange-font {
     
-    @include FlexCenter (row, center, center);
+    @include FlexCenter (row, center, baseline);
+    margin-left: $padding-huge;
 
-    button {
+    .compare {
         padding: 0 $smaller-sml;
 
         @include NoBorderBtn (none, $white);
-        @include InterFontVal($xlrg-weight, $med-2xsml, $orange, $med-3xsml)
+        @include InterFontVal($xlrg-weight, $med-2xsml, $orange, $med-3xsml);
+        
     }
 }
 
+.orange-filled {
+    @include FlexCenter (row, center, center);
+    @include BorderBtn (5px solid $ashgrey, $orange, $radius-2xsml, $no-margins, 8.5px $padding-2xlrg);
+    margin-top: $margin-xmed;
 
+    .cart-text {
+        @include NoBorderBtn (none, $orange);
+        @include InterFontVal($xlrg-weight, $med-2xsml, $white, $med-3xsml);
+        // color: $white;
+        padding-left: $padding-sml;
+    }
+}

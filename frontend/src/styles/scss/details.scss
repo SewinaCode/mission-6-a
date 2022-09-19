@@ -1,12 +1,20 @@
 @import './variables';
 
 section {
-    @include FlexCenter(column, flex-start, flex-start);padding: 0 $med-med;
+    @include FlexCenter(column, flex-start, flex-start);
+    padding: 0 $med-med;
 
     p {
         @include AbelFontVal($med-weight, $smaller-3xlrg, $darkblue, $med-xsml, none); 
+        flex-wrap: wrap;
+    }
+
+    .cart-compare-btns {
+        @include FlexCenter(row, flex-start, baseline);
+
     }
 }
+
 
 .d-w-img{
     @include FlexCenter(row, flex-start, flex-start);
@@ -29,7 +37,7 @@ section {
 
     h2 {
         margin: $no-margins;
-        @include AbelFontVal($med-weight, $sec-padding, $orange, $med-sml, none); 
+        @include AbelFontVal($med-weight, $padding-lrg, $orange, $med-sml, none); 
     }
 
     h3 {
