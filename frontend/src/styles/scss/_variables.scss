@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap');;
+
+//Widths, Margins & Paddings
+$full-width: 100%;
+$no-margins: 0px;
+
+$padding-xxsml: 8px;
+$padding-xsml: 9px;
+$padding-sml: 10px;
+$sec-padding: 31px;
+
+//Colors
+$black: black;
+$grey-black: rgba(2, 23, 36, 0.75);
+$lightgrey: #BFBFBF;
+$ashgrey: rgba(26, 26, 26, 0.24);
+$orange: #F08222;
+$darkblue: #0D4F77;
+$lightblue: #2C99CA;
+$offwhite:#F6F7FA;
+$white: white;
+
+
+//Fonts
+$Inter-Font: 'Inter', sans-serif;
+$xsml-weight: 200;
+$sml-weight: 300;
+$med-weight: 400;
+$lrg-weight: 500;
+$xlrg-weight: 600;
+
+$smaller-xsml: 11px;
+$smaller-sml: 12px;
+$smaller-med: 13px;
+$smaller-lrg: 14px;
+$smaller-xlrg: 15px;
+$smaller-xxlrg:16px;
+$smaller-3xlrg:18px;
+
+
+$med-2xsml: 20px;
+$med-4xsml: 24px;
+$med-xsml: 25px;
+$med-3xsml:32px;
+$med-sml: 35px;
+$med-med: 55px;
+
+// $lrg-one
+$lrg-two: 70px;
+
+//Flex mixins
+@mixin FlexCenter($direction, $sec-align, $item-align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $sec-align;
+    align-items: $item-align;
+}
+
+//Font mixins
+@mixin InterFontVal($weight, $size, $textcolor, $lineheight) {
+    font-family: 'Inter', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    color: $textcolor;
+    line-height: $lineheight;
+}
+
+@mixin AbelFontVal($weight, $size, $textcolor, $lineheight, $decoration) {
+    font-family: 'Abel', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    color: $textcolor;
+    line-height: $lineheight;
+    text-decoration: $decoration;
+}
+
+//Component mixins
+@mixin NoBorderBtn ($border, $backgroundColor) {
+    border: $border;  
+    background-color: $backgroundColor;
+}
+
+@mixin BorderBtn ($border, $backgroundColor, $borderRadius, $margin, $padding) {
+    border: $border;  
+    background-color: $backgroundColor;
+    border-radius: $borderRadius;
+    margin: $margin;
+    padding: $padding;
+}
