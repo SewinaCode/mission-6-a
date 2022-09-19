@@ -1,12 +1,13 @@
 @import './variables';
 
 // .header-page {
-//     // background-color: $darkblue;
+//    padding-bottom: $padding-xlrg;
 // }
 
 .headerimg {
     width: $full-width;
     margin: $no-margins;
+    display: block;
 }
 
 .breadcrumbs-sec {
@@ -15,7 +16,7 @@
 }
 
 .breadcrumbs {
-    @include FlexCenter(row, left, center);
+    @include FlexCenter(row, flex-start, baseline);
     margin: $no-margins;
     padding: 0px $padding-lrg;
 
@@ -26,8 +27,8 @@
     }
 
     .arrow-img {
-        width: $padding-sml;
-        height: $padding-sml;
+        width: $width-4xsml;
+        height: $width-4xsml;
     }
 
     h3 {

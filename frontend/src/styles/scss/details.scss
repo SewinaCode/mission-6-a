@@ -1,8 +1,8 @@
 @import './variables';
 
-section {
+.sec-details {
     @include FlexCenter(column, flex-start, flex-start);
-    padding: 0 $med-med;
+    padding-left: $padding-lrg;
 
     p {
         @include AbelFontVal($med-weight, $smaller-3xlrg, $darkblue, $med-xsml, none); 
@@ -10,25 +10,26 @@ section {
     }
 
     .cart-compare-btns {
-        @include FlexCenter(row, flex-start, baseline);
+        @include FlexCenter(row, center, baseline);
+        margin-top: $margin-xmed;
 
     }
 }
 
 
 .d-w-img{
-    @include FlexCenter(row, flex-start, flex-start);
+    @include FlexCenter(row, center, flex-start);
 
     img {
         height: 123px;
         width: auto;
-        padding: 0 89px;
+        padding-left: $padding-huge;
     }
 }
 
 .d-model {
     @include FlexCenter(column, left, left);
-    // padding: 0 $med-xsml;
+    padding-right: $padding-xhuge;
 
     h1 {
         margin: $no-margins;

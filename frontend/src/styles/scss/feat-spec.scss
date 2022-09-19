@@ -1,0 +1,10 @@
+@import "./variables";
+
+section {
+    padding: 0 $padding-huge;
+
+    .features {
+        @include FlexCenter(row, center, center)
+    }
+}
+

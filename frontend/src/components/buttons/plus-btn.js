@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../../styles/scss/styles.scss";
+import "../../styles/scss/styles.scss";
 
 export default function QuantityPlus() {
   const [count, setCount] = useState(0);

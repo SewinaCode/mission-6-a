@@ -1,12 +1,12 @@
 import React from "react";
-import "../../styles/scss/styles.css";
-import LaptopSale from "../../assets/laptop-sale.png";
-import QuantityPlus from "../../components/buttons/quantity/plus-btn";
-import { AddtoCart, CompareWPlus } from "../../components/buttons/compare";
+import "../../../styles/scss/styles.scss";
+import LaptopSale from "../../../assets/laptop-sale.png";
+import QuantityPlus from "../../../components/buttons/plus-btn";
+import { AddtoCart, CompareWPlus } from "../../../components/buttons/buttons";
 
 export default function Details() {
   return (
-    <section>
+    <div className="sec-details">
       <div className="d-w-img">
         <div className="d-model">
           <h1>DELL XPS 13</h1>
@@ -30,6 +30,6 @@ export default function Details() {
         <AddtoCart />
         <CompareWPlus />
       </div>
-    </section>
+    </div>
   );
 }

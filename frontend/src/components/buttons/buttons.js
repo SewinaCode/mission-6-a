@@ -1,6 +1,7 @@
 import React from "react";
 import ComparePlus from "../../assets/compare-icon.png";
 import Cart from "../../assets/cart.png";
+import OrangeArrow from "../../assets/left-org-arrow.png";
 import "../../styles/scss/styles.scss";
 
 function CompareWPlus() {
@@ -21,4 +22,16 @@ function AddtoCart() {
   );
 }
 
-export { CompareWPlus, AddtoCart };
+function BackBtn() {
+  return (
+    <div className="back-button">
+      <img src={OrangeArrow} alt="orange-arrow" />
+      <div className="backBtn-text">
+        <h5>BACK</h5>
+        <p>to products</p>
+      </div>
+    </div>
+  );
+}
+
+export { CompareWPlus, AddtoCart, BackBtn };

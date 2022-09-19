@@ -1,0 +1,25 @@
+@import "./variables";
+
+.feat-icon {
+    @include FlexCenter(row, center, center);
+    margin: 0 $margin-4xlrg;
+
+    .ft-txt {
+        padding: 0 $padding-3xsml;
+    }
+
+    .abel-25 {
+        @include AbelFontVal($med-weight, $med-xsml, $black, $med-3xsml, none);
+        margin: $no-margins;
+    }
+
+    .abel-35 {
+        @include AbelFontVal($med-weight, $med-sml, $darkblue, 100%, none);
+        margin: $no-margins;
+    }
+
+    .abel-18 {
+        @include AbelFontVal($med-weight, $smaller-3xlrg, $lightblue, 100%, none);
+        margin: $no-margins;
+    }
+}
