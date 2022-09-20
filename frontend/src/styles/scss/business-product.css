@@ -23,4 +23,12 @@
   text-decoration: none;
   flex-wrap: wrap;
   padding-left: 300px;
+}
+
+.p-products-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: center;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=business-product.css.map */

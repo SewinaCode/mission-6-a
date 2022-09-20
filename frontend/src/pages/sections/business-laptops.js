@@ -1,5 +1,5 @@
 import React from "react";
-import Filters from "../../components/filters/FilterGroup"
+import Filters from "../sections/parts/FiltersGroup-mock"
 import Products from "../../components/Products"
 import "../../styles/scss/styles.scss";
 

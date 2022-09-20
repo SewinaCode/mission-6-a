@@ -1,4 +1,4 @@
-import Card from "../components/cards";
+import Card from "../pages/sections/parts/product-summary-card";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import Loading from "./Loading";
@@ -14,7 +14,7 @@ function Products() {
       console.log('Product list response',response.data)
       setProductList(response.data);
     });
-  }, []);
+  });
 
   useEffect(() => {
     Object.keys(productList).length === 0
@@ -25,16 +25,18 @@ function Products() {
   return isLoading ? (
     <Loading />
   ) : (
-      <div>
+      <div className="p-products-group">
         {productList.map((product) => {
           console.log(product.product_name)
           return (
             <Card
               key={product._id}
-              product={product.product_name}
-              description={product.product_description}
-              quantity={product.quantity}
+              name={product.product_name}
+              model={product.product_model}
+              price={product.price}
+              wasprice={product.wasprice}
               imageUrl={product.imageUrl}
+              specfications={product.specfications}
             />
           );
         })}

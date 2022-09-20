@@ -1,6 +1,6 @@
 import React from "react";
-import BannerImg from "../../assets/VideoConferencing-crop.png";
-import "../../styles/scss/styles.scss";
+import BannerImg from "../../../assets/VideoConferencing-crop.png";
+import "../../../styles/scss/styles.scss";
 
 export default function Banner() {
     return (

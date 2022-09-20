@@ -1,9 +1,9 @@
-import styles from "../styles/LoadingStatus.module.css";
+import "../styles/scss/styles.scss";
 
 export default function Loading() {
   return (
-    <div className={styles.loadingContainer}>
-      <div className={styles.loadingCircle}></div>
+    <div className="loadingContainer">
+      <div className="loadingCircle"></div>
     </div>
   );
 }

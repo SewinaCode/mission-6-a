@@ -10,6 +10,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
 .headerimg {
   width: 100%;
   margin: 0px;
@@ -360,7 +362,60 @@ section .features {
   padding-left: 300px;
 }
 
-.box {
-  display: block;
+.p-products-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.filterFrame {
   padding-top: 30px;
+}
+
+.filterList {
+  padding-top: 30px;
+}
+
+.filtermock {
+  padding-top: 30px;
+}
+
+.loadingContainer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+  right: 35%;
+}
+
+.loadingCircle {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f7f7f7;
+  border-top-color: #707070;
+  border-radius: 50%;
+  -webkit-animation: loadingAnimaiton 1s linear infinite;
+          animation: loadingAnimaiton 1s linear infinite;
+  opacity: 90%;
+}
+
+@-webkit-keyframes loadingAnimaiton {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes loadingAnimaiton {
+  to {
+    transform: rotate(1turn);
+  }
+}
+.p-summary {
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #0D4F77;
+  padding: 2%;
+  margin: 2%;
 }/*# sourceMappingURL=styles.css.map */
