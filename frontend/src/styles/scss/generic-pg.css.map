@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "generic-pg.scss"
-    ],
-    "names": [],
-    "file": "generic-pg.css"
-}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"generic-pg.css"}

@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACAA,OAAO,CAAC,mGAAI;ADEZ,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,CAAC,CCgCC,IAAI;CD3BlB;;AAND,AAGI,OAHG,CAGH,SAAS,CAAC;EC0GV,OAAO,EAAE,IAAI;EACb,cAAc,ED1GU,GAAG;EC2G3B,eAAe,ED3Gc,MAAM;EC4GnC,WAAW,ED5G0B,MAAM;CAC1C",
-    "sources": [
-        "feat-spec.scss",
-        "_variables.scss"
-    ],
-    "names": [],
-    "file": "feat-spec.css"
-}
+{"version":3,"sources":["_variables.scss","feat-spec.scss","feat-spec.css"],"names":[],"mappings":"AAAQ,2GAAA;ACER;EACI,eAAA;ACAJ;ADEI;ED0GA,aAAA;EACA,mBC1GwB;ED2GxB,uBC3G6B;ED4G7B,mBC5GqC;ACGzC","file":"feat-spec.css"}

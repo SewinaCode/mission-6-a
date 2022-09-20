@@ -1,0 +1,21 @@
+@import './variables';
+
+
+
+.sec-business-product-content{
+    @include FlexCenter (row, space-between, center);
+    padding: 0 $padding-huge;
+
+}
+
+
+.business-product-header {
+    @include FlexCenter (row,none, center);
+    padding: 0;
+
+    h1 {
+        @include AbelFontVal($med-weight, $med-med, $darkblue, $med-4xsml, none);
+        flex-wrap: wrap;
+        padding-left: 300px;
+    }
+}
