@@ -22,6 +22,15 @@ function AddtoCart() {
   );
 }
 
+function AddAlltoCart() {
+  return (
+    <div className="orange-filled">
+      <img src={Cart} alt="add-to-cart-icon" />
+      <button className="cart-text">Add All Item To Cart</button>
+    </div>
+  );
+}
+
 function BackBtn() {
   return (
     <div className="back-button">
@@ -34,4 +43,4 @@ function BackBtn() {
   );
 }
 
-export { CompareWPlus, AddtoCart, BackBtn };
+export { CompareWPlus, AddtoCart, AddAlltoCart, BackBtn };

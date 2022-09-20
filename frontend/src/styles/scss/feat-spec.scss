@@ -2,9 +2,20 @@
 
 section {
     padding: 0 $padding-huge;
+    background: linear-gradient(#E7F0F5 0%,
+        rgba(231, 240, 245, 0) 100%);
 
     .features {
         @include FlexCenter(row, center, center)
     }
 }
+
+.spec-details {
+    padding: 87px 0;
+
+    .spec-details-tab {
+    @include FlexCenter(row, flex-start, center);
+    }
+}
+
 
