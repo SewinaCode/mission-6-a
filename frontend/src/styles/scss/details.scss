@@ -1,26 +1,35 @@
 @import './variables';
 
-section {
-    @include FlexCenter(column, flex-start, flex-start);padding: 0 $med-med;
+.sec-details {
+    @include FlexCenter(column, flex-start, flex-start);
+    padding-left: $padding-lrg;
 
     p {
         @include AbelFontVal($med-weight, $smaller-3xlrg, $darkblue, $med-xsml, none); 
+        flex-wrap: wrap;
+    }
+
+    .cart-compare-btns {
+        @include FlexCenter(row, center, baseline);
+        margin-top: $margin-xmed;
+
     }
 }
 
+
 .d-w-img{
-    @include FlexCenter(row, flex-start, flex-start);
+    @include FlexCenter(row, center, flex-start);
 
     img {
         height: 123px;
         width: auto;
-        padding: 0 89px;
+        padding-left: $padding-huge;
     }
 }
 
 .d-model {
     @include FlexCenter(column, left, left);
-    // padding: 0 $med-xsml;
+    padding-right: $padding-xhuge;
 
     h1 {
         margin: $no-margins;
@@ -29,7 +38,7 @@ section {
 
     h2 {
         margin: $no-margins;
-        @include AbelFontVal($med-weight, $sec-padding, $orange, $med-sml, none); 
+        @include AbelFontVal($med-weight, $padding-lrg, $orange, $med-sml, none); 
     }
 
     h3 {

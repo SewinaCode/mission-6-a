@@ -4,10 +4,69 @@
 $full-width: 100%;
 $no-margins: 0px;
 
-$padding-xxsml: 8px;
-$padding-xsml: 9px;
-$padding-sml: 10px;
-$sec-padding: 31px;
+//width
+$width-4xsml: 8px;
+$width-3xsml: 9px;
+$width-2xsml: 10px;
+$width-xsml: 11px;
+$width-sml: 12px;
+
+//Padding & Margin
+
+//padding
+$padding-4xsml: 8px;
+$padding-3xsml: 9px;
+$padding-2xsml: 10px;
+$padding-xsml: 11px;
+$padding-sml: 12px;
+
+$padding-4xmed: 13px;
+$padding-3xmed: 14px;
+$padding-2xmed: 15px;
+$padding-xmed: 17px;
+$padding-med: 18px;
+
+
+$padding-4xlrg: 19px;
+$padding-3xlrg: 20px;
+$padding-2xlrg: 25px;
+$padding-xlrg: 30px;
+$padding-lrg: 31px;
+
+$padding-huge: 55px;
+$padding-xhuge: 65px;
+
+//margins
+$margin-4xsml: 8px;
+$margin-3xsml: 9px;
+$margin-2xsml: 10px;
+$margin-xsml: 11px;
+$margin-sml: 12px;
+
+$margin-4xmed: 13px;
+$margin-3xmed: 14px;
+$margin-2xmed: 15px;
+$margin-xmed: 17px;
+$margin-med: 18px;
+
+$margin-4xlrg: 19px;
+$margin-3xlrg: 20px;
+$margin-2xlrg: 25px;
+$margin-xlrg: 30px;
+$margin-lrg: 31px;
+
+//border radius
+$radius-4xsml: 8px;
+$radius-3xsml: 9px;
+$radius-2xsml: 10px;
+$radius-xsml: 11px;
+$radius-sml: 12px;
+
+$radius-4xmed: 13px;
+$radius-3xmed: 14px;
+$radius-2xmed: 15px;
+$radius-xmed: 17px;
+$radius-med: 18px;
 
 //Colors
 $black: black;

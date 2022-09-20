@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,mGAAI;ADGZ,AAAA,iBAAiB,CAAA;EC4Gb,OAAO,EAAE,IAAI;EACb,cAAc,ED5GO,GAAG;EC6GxB,eAAe,ED7GW,MAAM;EC8GhC,WAAW,ED9GuB,MAAM;EACxC,aAAa,EC4BH,IAAI;CDtBjB;;AARD,AAII,iBAJa,CAIb,aAAa,CAAC;ECwGd,OAAO,EAAE,IAAI;EACb,cAAc,EDxGW,GAAG;ECyG5B,eAAe,EDzGe,MAAM;EC0GpC,WAAW,ED1G2B,MAAM;EACxC,OAAO,EAAE,CAAC,CC0BH,IAAI;CDzBd",
+    "sources": [
+        "product-pic.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "product-pic.css"
+}

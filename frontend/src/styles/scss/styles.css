@@ -10,7 +10,7 @@
 
 .breadcrumbs-sec {
   background-color: rgba(2, 23, 36, 0.75);
-  padding: 9px 0px;
+  padding: 8px 0px;
 }
 
 .breadcrumbs {
@@ -37,8 +37,8 @@
 }
 
 .breadcrumbs .arrow-img {
-  width: 8px;
-  height: 8px;
+  width: 12px;
+  height: 12px;
 }
 
 .breadcrumbs h3 {
@@ -71,7 +71,7 @@
           align-items: center;
 }
 
-.orange-font button {
+.orange-font .compare {
   padding: 0 12px;
   border: none;
   background-color: white;
@@ -80,6 +80,39 @@
   font-weight: 600;
   color: #F08222;
   line-height: 32px;
+}
+
+.orange-filled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px solid rgba(26, 26, 26, 0.24);
+  background-color: #F08222;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 8.5px 25px;
+  margin-top: 17px;
+}
+
+.orange-filled .cart-text {
+  border: none;
+  background-color: #F08222;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  line-height: 32px;
+  padding-left: 12px;
 }
 
 section {
@@ -106,6 +139,24 @@ section p {
   color: #0D4F77;
   line-height: 25px;
   text-decoration: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section .cart-compare-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .d-w-img {
@@ -237,8 +288,8 @@ section p {
   border-radius: none;
   margin: 0px;
   padding: 1px 13px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   color: white;
   font-size: 20px;
 }
@@ -263,16 +314,16 @@ section p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   border: 3px solid rgba(26, 26, 26, 0.24);
   background-color: #F08222;
   border-radius: none;
   margin: 0px;
   padding: 1px 15px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   color: white;
   font-size: 20px;
   margin: 0px;

@@ -2,11 +2,12 @@
 .headerimg {
   width: 100%;
   margin: 0px;
+  display: block;
 }
 
 .breadcrumbs-sec {
   background-color: rgba(2, 23, 36, 0.75);
-  padding: 9px 0px;
+  padding: 8px 0px;
 }
 
 .breadcrumbs {
@@ -17,12 +18,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   margin: 0px;
   padding: 0px 31px;
 }
