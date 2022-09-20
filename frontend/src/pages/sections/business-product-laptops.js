@@ -1,11 +1,14 @@
 import React from "react";
+import Filters from "../../components/filters/FilterGroup"
+import Products from "../../components/Products"
 import "../../styles/scss/styles.scss";
 
-export default function Products() {
+
+export default function content() {
     return (
         <section className="sec-business-product-content">
-            <h1>Filter</h1>
-            <h1>Product cards</h1>
+            <Filters />
+            <Products />
         </section>
     )
 

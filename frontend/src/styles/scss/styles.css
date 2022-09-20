@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
 .headerimg {
   width: 100%;
   margin: 0px;
@@ -333,19 +334,33 @@ section .features {
   margin: 0px;
 }
 
-.business-product-header {
+.sec-business-product-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-arround;
+  justify-content: space-between;
   align-items: center;
   padding: 0 55px;
 }
+
+.business-product-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: center;
+  padding: 0;
+}
 .business-product-header h1 {
   font-family: "Abel", sans-serif;
-  font-size: 18px;
+  font-size: 55px;
   font-weight: 400;
   color: #0D4F77;
-  line-height: 25px;
+  line-height: 24px;
   text-decoration: none;
   flex-wrap: wrap;
+  padding-left: 300px;
+}
+
+.box {
+  display: block;
+  padding-top: 30px;
 }/*# sourceMappingURL=styles.css.map */
