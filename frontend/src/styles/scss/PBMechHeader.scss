@@ -1,23 +1,24 @@
 @import './variables';
 
 // .header-page {
-//     // background-color: $darkblue;
+//    padding-bottom: $padding-xlrg;
 // }
 
 .headerimg {
     width: $full-width;
     margin: $no-margins;
+    display: block;
 }
 
 .breadcrumbs-sec {
     background-color: $grey-black;
-    padding: $padding-xsml 0px;
+    padding: $padding-4xsml 0px;
 }
 
 .breadcrumbs {
-    @include FlexCenter(row, left, center);
+    @include FlexCenter(row, flex-start, baseline);
     margin: $no-margins;
-    padding: 0px $sec-padding;
+    padding: 0px $padding-lrg;
 
     img {
         // width: auto;
@@ -26,8 +27,8 @@
     }
 
     .arrow-img {
-        width: $padding-xxsml;
-        height: $padding-xxsml;
+        width: $width-4xsml;
+        height: $width-4xsml;
     }
 
     h3 {
