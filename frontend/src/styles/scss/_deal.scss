@@ -1,0 +1,64 @@
+@import "./variables";
+
+// Deal Component styling
+.combo-align{
+    @include FlexCenter(row, center, center);
+    margin-bottom: $margin-3xlrg;
+}
+
+ 
+.combo-content {
+     @include FlexCenter(row, space-between, baseline);
+
+}
+
+
+.prices-un-cross {
+        @include FlexCenter(row, center, baseline);
+        margin-left: $margin-slrg;
+        
+
+        .crossed-price {
+            @include AbelFontVal($med-weight, $med-2xsml, $orange, $med-xsml, line-through);
+            margin: $no-margins;
+            padding: 0 $padding-4xsml;
+        }
+
+        .uncrossed-price {
+            @include AbelFontVal($med-weight, $med-2xsml, $orange, $med-xsml, none);
+            margin: $no-margins;
+            padding: 0 $padding-4xsml;
+        }
+        }
+
+
+// FeatComboV Component styling
+.combo-icon {
+    @include FlexCenter(row, center, flex-end);
+    // margin-right: 40%;
+
+    img {
+        @include BorderBtn (1px solid $darkblue, 0, 3px, none, $padding-5xlrg $padding-sml);
+        width: 105px;
+    
+    }
+
+    .ft-txt {
+        padding: 0 $padding-2xsml;
+    }
+
+    .abel-25 {
+        @include AbelFontVal($med-weight, $med-xsml, $black, $med-3xsml, none);
+        margin: $no-margins;
+    }
+
+    .abel-35 {
+        @include AbelFontVal($med-weight, $med-sml, $darkblue, 100%, none);
+        margin: $no-margins;
+    }
+
+    .abel-18 {
+        @include AbelFontVal($med-weight, $smaller-3xlrg, $lightblue, 100%, none);
+        margin: $no-margins;
+    }
+}

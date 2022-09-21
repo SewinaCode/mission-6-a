@@ -1,6 +1,6 @@
 @import "./variables";
 
-section {
+.linear-bg {
     padding: 0 $padding-huge;
     background: linear-gradient(#E7F0F5 0%,
         rgba(231, 240, 245, 0) 100%);

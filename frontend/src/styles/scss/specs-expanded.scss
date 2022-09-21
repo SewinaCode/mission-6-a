@@ -1,0 +1,11 @@
+@import "./variables";
+
+.rec-org-border {
+    @include FlexCenter(row, flex-start, baseline);
+    flex-wrap: wrap;
+    @include BorderBtn (12px solid $orange, transparent, none, none, 68px 38px);
+    border-top-right-radius: $radius-2xsml;
+    border-bottom-right-radius: $radius-2xsml;
+    border-bottom-left-radius: $radius-2xsml;
+    box-shadow: 3px 4px 12px 4px rgba(0,0,0,0.25);
+}
