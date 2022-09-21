@@ -23,15 +23,15 @@ function Products() {
   ) : (
     <>
       {productList.map((product) => {
-        console.log(product.product_name)
+        console.log(product.name)
         return (
           <Card
             key={product._id}
-            name={product.product_name}
-            model={product.product_model}
-            price={product.price|1100}
-            was={product.was|1800}
-            imageUrl={product.imageUrl}
+            name={product.name}
+            model={product.model}
+            price={product.saleprice | ""}
+            was={product.stockprice |"no stock"}
+            imageUrl={product.ImgURL}
             specfications={product.specfications}
           />
         );

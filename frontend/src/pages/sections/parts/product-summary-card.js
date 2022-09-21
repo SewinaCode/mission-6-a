@@ -19,13 +19,13 @@ export default function ProductSummary({
                 <img src={defaultImg} alt="Laptop" />
             </div>
             <div className="p-label">
-                <div className="p-line1">
+                <div className="p-make">
                     <h1>{name}</h1>
+                    <h3>Model{model}</h3>
                 </div>
-                <div className="p-line2">
-                    {/* <h3>Model {model}</h3> */}
-                    <h2>${price}</h2>
-                    <p>was${was}</p>
+                <div className="p-price">
+                    <h1>${price}</h1>
+                    <h3>was ${was}</h3>
                 </div>
             </div>
             <FeatureSpec />

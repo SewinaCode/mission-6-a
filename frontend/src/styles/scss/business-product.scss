@@ -1,17 +1,24 @@
 @import './variables';
-.page-bp{
-    padding:0;
+
+.page-bp {
+    padding: 0;
 }
 
 .sec-bp-content {
-    @include FlexCenter (row, space-between, none);
+    @include FlexCenter (row, none, none);
     padding: 0 $padding-2xlrg;
     margin: $margin-xlrg 0;
-   
+
+    .sec-bp-products {
+        @include FlexCenter (row, flex-start, none);
+        flex-wrap: wrap;
+    }
 }
 
-.sec-bp-filter{
-@include FlexCenter (row, space-between, none);
+
+.sec-bp-filter {
+    @include FlexCenter (row, space-between, none);
+    max-width:365px;
 
 }
 
@@ -22,7 +29,7 @@
     h1 {
         @include AbelFontVal($med-weight, $med-med, $darkblue, $med-4xsml, none);
         flex-wrap: wrap;
-        padding-left:300px;
+        padding-left: 300px;
     }
 }
 
@@ -32,10 +39,6 @@
     flex-wrap: wrap;
 }
 
-.sec-bp-bannerImg{
-padding: 0
-}
-
-.sec-bp-products{
-padding:0
+.sec-bp-bannerImg {
+    padding: 0
 }
