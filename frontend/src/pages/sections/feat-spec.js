@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/scss/styles.scss";
 import FeatureIcon from "../../components/i-feat";
-import TagIcon from "../../assets/tag-icon 1.png";
+import TagIcon from "../../assets/tag-icon1.png";
 
 export default function FeatSpec() {
   return (

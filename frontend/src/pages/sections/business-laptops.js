@@ -6,9 +6,9 @@ import "../../styles/scss/styles.scss";
 
 export default function content() {
     return (
-        <section className="sec-business-product-content">
-            <Filters />
-            <Products />
+        <section className="sec-bp-content">
+            <Filters  className="sec-bp-filter"/>
+            <Products className="sec-bp-products"/>
         </section>
     )
 

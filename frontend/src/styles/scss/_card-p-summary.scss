@@ -1,9 +1,121 @@
 @import './variables';
 
-.p-summary{
-border-style: solid;
-border-radius: $radius-4xsml;
-border-color: $darkblue;
-padding:2%;
-margin:2%;
+.p-summary {
+    @include FlexCenter(column, center, center);
+    border-style: solid;
+    border-radius: $radius-4xsml;
+    border-color: $darkblue;
+    width: 321px;
+    max-height: 507px;
+    margin: 5px;
+
+    h1 {
+        @include AbelFontVal($med-weight, $smaller-xsml, $darkblue, $med-4xsml, none);
+        flex-wrap: wrap;
+    }
+
+}
+
+.p-summaryImg {
+    width: 195px;
+    height: auto;
+
+    img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+}
+
+.p-features {
+    @include FlexCenter(row, center, center);
+    flex-wrap: wrap;
+
+}
+
+.p-feat-icon {
+    @include FlexCenter(row, none, center);
+    flex-wrap: wrap;
+    width: 214px;
+    height: 30px;
+    padding: 7px;
+
+    img {
+        max-height: 28px;
+    }
+    p {
+        @include AbelFontVal($lrg-weight, $smaller-3xlrg, $black, $med-2xsml, none);
+        padding-left: $padding-sml
+    }
+    h3 {
+        @include AbelFontVal($med-weight, $smaller-3xlrg, $darkblue, $med-2xsml, none);
+        padding-left: $padding-sml
+    }
+}
+
+.p-label {
+    @include FlexCenter(column, center, center);
+    
+}
+
+.p-line1 {
+
+    @include FlexCenter(row, space-evenly, center);
+    margin: 0 36px;
+    padding: 0;
+    h1 {
+        @include AbelFontVal($med-weight,$med-2xsml, $darkblue,none, none);
+        flex-wrap: wrap;
+    }
+    
+
+}
+
+.p-line2 {
+    @include FlexCenter(row, space-between, center);
+    margin: 0 36px;
+h2 {
+
+        @include AbelFontVal($med-weight,$med-2xsml, $orange, $med-sml, none);
+    }
+    h3 {
+        @include AbelFontVal($med-weight, $smaller-xsml, $darkblue, none, none);
+        flex-wrap: wrap;
+    }
+
+    p {
+
+        @include AbelFontVal($med-weight, $smaller-xsml, $lightblue, $lrg-two, line-through);
+    }
+}
+
+.p-footer {
+    @include FlexCenter(row, space-between, center);
+    width:100%;
+}
+
+.p-orange-font {
+    @include FlexCenter (row, center, baseline);
+    margin-left:0;
+
+    .compare {
+        padding: 0 $smaller-sml;
+
+        @include NoBorderBtn (none, $white);
+        @include InterFontVal($xlrg-weight, $smaller-lrg, $orange, $med-3xsml);
+
+    }
+
+}
+
+.p-orange-filled {
+    @include FlexCenter (row, center, center);
+    @include BorderBtn (5px solid $ashgrey, $orange, $radius-2xsml, $no-margins, 8.5px $padding-2xlrg);
+
+    .cart-text {
+        @include NoBorderBtn (none, $orange);
+        @include InterFontVal($xlrg-weight, $smaller-lrg, $white, $med-3xsml);
+        // color: $white;
+        padding-left: $padding-sml;
+    }
 }

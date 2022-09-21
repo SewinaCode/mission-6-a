@@ -1,26 +1,41 @@
 @import './variables';
+.page-bp{
+    padding:0;
+}
 
+.sec-bp-content {
+    @include FlexCenter (row, space-between, none);
+    padding: 0 $padding-2xlrg;
+    margin: $margin-xlrg 0;
+   
+}
 
-
-.sec-business-product-content {
-    @include FlexCenter (row, space-between, center);
-    padding: 0 $padding-huge;
+.sec-bp-filter{
+@include FlexCenter (row, space-between, none);
 
 }
 
-
-.business-product-header {
-    @include FlexCenter (row, none, center);
+.sec-bp-navbar {
+    @include FlexCenter (row, flex-start, center);
     padding: 0;
 
     h1 {
         @include AbelFontVal($med-weight, $med-med, $darkblue, $med-4xsml, none);
         flex-wrap: wrap;
-        padding-left: 300px;
+        padding-left:300px;
     }
 }
 
-.p-products-group {
+.sec-bp-group {
     @include FlexCenter (row, none, center);
+    padding: 0 $padding-2xlrg;
     flex-wrap: wrap;
+}
+
+.sec-bp-bannerImg{
+padding: 0
+}
+
+.sec-bp-products{
+padding:0
 }

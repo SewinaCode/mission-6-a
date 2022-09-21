@@ -26,6 +26,7 @@
     }
 }
 
+
 .back-button {
     @include FlexCenter (row, flex-start, baseline);
     padding: 0 $padding-huge;
@@ -50,3 +51,4 @@
         }
     }
 }
+

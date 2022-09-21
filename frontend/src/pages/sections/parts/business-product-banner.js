@@ -4,9 +4,9 @@ import "../../../styles/scss/styles.scss";
 
 export default function Banner() {
     return (
-        <div>
-            <img className="bannerImg" src={BannerImg} alt="BusinessBanner-1" />
-            <img className="bannerImg" src={BannerImg} alt="BusinessBanner-2" />    
+        <div className="sec-bp-bannerImg" >
+            <img className="sec-bp-bannerImg" src={BannerImg} alt="BusinessBanner-1" />
+            <img className="sec-bp-bannerImg" src={BannerImg} alt="BusinessBanner-2" />    
         </div>
     )
 }

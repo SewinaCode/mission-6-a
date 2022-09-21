@@ -34,4 +34,22 @@ function BackBtn() {
   );
 }
 
-export { CompareWPlus, AddtoCart, BackBtn };
+function PcompareWPlus() {
+  return (
+    <div className="p-orange-font">
+      <img src={ComparePlus} alt="compare-icon" />
+      <button className="compare">Compare</button>
+    </div>
+  );
+}
+
+function PaddtoCart() {
+  return (
+    <div className="p-orange-filled">
+      <img src={Cart} alt="add-to-cart-icon" />
+      <button className="cart-text">Add to Cart</button>
+    </div>
+  );
+}
+
+export { PcompareWPlus, PaddtoCart, CompareWPlus,AddtoCart, BackBtn };
