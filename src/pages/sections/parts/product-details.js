@@ -3,32 +3,39 @@ import "../../../styles/scss/styles.scss";
 import LaptopSale from "../../../assets/laptop-sale.png";
 import QuantityPlus from "../../../components/buttons/plus-btn";
 import { AddtoCart, CompareWPlus } from "../../../components/buttons/buttons";
+// import apiClient from "../../../utils/http-common";
 
-export default function Details() {
+export default function Details({ name, model, old, current, desc }) {
+  // const [details, setDetails] = useState([]);
+
+  // useEffect(() => {
+  //   apiClient.get("/details").then((response) => {
+  //     console.log("Detail list response", response.data);
+  //     setDetails(response.data);
+  //     // setIsLoading(false);
+  //   });
+  // }, []);
+
   return (
     <div className="sec-details">
       <div className="d-w-img">
         <div className="d-model">
-          <h1>DELL XPS 13</h1>
-          <h3>Model 355643</h3>
+          <h1>{name}</h1>
+          <h3>Model {model}</h3>
           <div className="p-flex">
-            <h2>$1100</h2>
-            <p>was $1200</p>
+            <h2>${current}</h2>
+            <p>was ${old}</p>
           </div>
         </div>
         <img src={LaptopSale} alt="laptop-sale-icon" />
       </div>
-      <p>
-        Designed for the modern workplace, the Lenovo V15 Gen 2 (15.6" Intel)
-        laptop gets it right. Suited for mobile productivity, it yields great
-        performance in the office or at home. Windows 11 Pro, a choice of Intel®
-        processors, plus top-notch security, memory, and storage options, give
-        you a smooth workday, every day.
-      </p>
+      <p>{desc}</p>
       <QuantityPlus />
       <div className="cart-compare-btns">
         <AddtoCart />
-        <CompareWPlus />
+        <div className="compare-pad">
+          <CompareWPlus />
+        </div>
       </div>
     </div>
   );

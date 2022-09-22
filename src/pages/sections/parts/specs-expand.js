@@ -6,7 +6,7 @@ export default function SpecsExpand() {
   return (
     <div className="rec-org-border">
       <BreakdownCard title="Brand" desc="intel i3" />
-      <BreakdownCard title="Brand" desc="intel i3" />
+      {/* <BreakdownCard title="Brand" desc="intel i3" />
       <BreakdownCard title="Brand" desc="intel i3" />
       <BreakdownCard title="Brand" desc="intel i3" />
       <BreakdownCard title="Brand" desc="intel i3" />
@@ -24,7 +24,7 @@ export default function SpecsExpand() {
       <BreakdownCard title="Brand" desc="intel i3" />
       <BreakdownCard title="Brand" desc="intel i3" />
       <BreakdownCard title="Brand" desc="intel i3" />
-      <BreakdownCard title="Brand" desc="intel i3" />
+      <BreakdownCard title="Brand" desc="intel i3" /> */}
     </div>
   );
 }

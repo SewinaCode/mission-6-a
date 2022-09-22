@@ -5,9 +5,12 @@ import Details from "../../pages/sections/parts/product-details";
 
 export default function ProPicDet() {
   return (
-    <div className="product-pic-det">
-      <ProductPics />
-      <Details />
-    </div>
+    <>
+      <div className="product-pic-det">
+        <ProductPics />
+        <Details />
+      </div>
+      <div className="separate"></div>
+    </>
   );
 }

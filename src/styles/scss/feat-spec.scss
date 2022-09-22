@@ -1,5 +1,11 @@
 @import "./variables";
 
+.load {
+    @include FlexCenter(row, center, center);
+    padding: 0 $padding-huge;
+    margin: $margin-xlrg 0;
+}
+
 .linear-bg {
     padding: 0 $padding-huge;
     background: linear-gradient(#E7F0F5 0%,

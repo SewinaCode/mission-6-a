@@ -5,8 +5,23 @@
     @include FlexCenter (row, center, center);
     padding-right: $padding-lrg;
 
+    .btn-c {
+        @include FlexCenter (column, baseline, center);
+        @include NoBorderBtn (none, none);
+        width: 120px;
+
+        img {
+            cursor: pointer;
+            width: 120px;
+        }
+    }
+
     .img-carousel {
         @include FlexCenter (row, center, center);
         padding: 0 $padding-huge;
+
+        .slider-img {
+            width: 400px;
+        }
     }
 }

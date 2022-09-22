@@ -1,13 +1,13 @@
 @import './variables';
 
 .qty-btn {
-    @include FlexCenter(row, flex-start, center);
+    @include FlexCenter(row, flex-start, baseline);
     // padding: none;
     // margin: $no-margins;
 
     .qty-plus {
         @include FlexCenter(row, center, center);
-        @include BorderBtn(3px solid $ashgrey, $orange, none, $no-margins, 1px 13px);
+        @include BorderBtn(3px solid $ashgrey, $orange, none, $no-margins, 1.5px 13px);
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         color: $white;
@@ -21,7 +21,7 @@
 
     .qty-minus {
         @include FlexCenter(row, center, baseline);
-        @include BorderBtn(3px solid $ashgrey, $orange, none,$no-margins, 1px 15px);
+        @include BorderBtn(3px solid $ashgrey, $orange, none,$no-margins, 1.5px 15px);
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         color: $white;
