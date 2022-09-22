@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
+.sec-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 31px;
+}
+.sec-details p {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #0D4F77;
+  line-height: 25px;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+.sec-details .cart-compare-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 17px;
+}
+
+.d-w-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.d-w-img img {
+  height: 123px;
+  width: auto;
+  padding-left: 55px;
+}
+
+.d-model {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  padding-right: 65px;
+}
+.d-model h1 {
+  margin: 0px;
+  font-family: "Abel", sans-serif;
+  font-size: 55px;
+  font-weight: 400;
+  color: #2C99CA;
+  line-height: 70px;
+  text-decoration: none;
+}
+.d-model h2 {
+  margin: 0px;
+  font-family: "Abel", sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+  color: #F08222;
+  line-height: 35px;
+  text-decoration: none;
+}
+.d-model h3 {
+  margin: 0px;
+  font-family: "Abel", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #0D4F77;
+  line-height: 35px;
+  text-decoration: none;
+}
+.d-model p {
+  margin: 0 13px;
+  font-family: "Abel", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: #2C99CA;
+  line-height: 70px;
+  text-decoration: line-through;
+}
+.d-model .p-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}/*# sourceMappingURL=details.css.map */

@@ -1,0 +1,58 @@
+@import './variables';
+
+.sec-details {
+    @include FlexCenter(column, flex-start, flex-start);
+    padding-left: $padding-lrg;
+
+    p {
+        @include AbelFontVal($med-weight, $smaller-3xlrg, $darkblue, $med-xsml, none); 
+        flex-wrap: wrap;
+    }
+
+    .cart-compare-btns {
+        @include FlexCenter(row, center, baseline);
+        margin-top: $margin-xmed;
+
+    }
+}
+
+
+.d-w-img{
+    @include FlexCenter(row, center, flex-start);
+
+    img {
+        height: 123px;
+        width: auto;
+        padding-left: $padding-huge;
+    }
+}
+
+.d-model {
+    @include FlexCenter(column, left, left);
+    padding-right: $padding-xhuge;
+
+    h1 {
+        margin: $no-margins;
+        @include AbelFontVal($med-weight, $med-med, $lightblue, $lrg-two, none); 
+    }
+
+    h2 {
+        margin: $no-margins;
+        @include AbelFontVal($med-weight, $padding-lrg, $orange, $med-sml, none); 
+    }
+
+    h3 {
+        margin: $no-margins;
+        @include AbelFontVal($med-weight, $med-3xsml, $darkblue, $med-sml, none); 
+    }
+
+    p {
+        margin: 0 $smaller-med;
+        @include AbelFontVal($med-weight, $smaller-xsml, $lightblue, $lrg-two, line-through); 
+    }
+
+    .p-flex {
+        @include FlexCenter(row, flex-start, center);
+        
+    }
+}

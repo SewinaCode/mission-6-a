@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap');
+;
+
+//Widths, Margins & Paddings
+$full-width: 100%;
+$no-margins: 0px;
+
+//width
+$width-4xsml: 8px;
+$width-3xsml: 9px;
+$width-2xsml: 10px;
+$width-xsml: 11px;
+$width-sml: 12px;
+
+//Padding & Margin
+
+//padding
+$padding-4xsml: 8px;
+$padding-3xsml: 9px;
+$padding-2xsml: 10px;
+$padding-xsml: 11px;
+$padding-sml: 12px;
+
+$padding-4xmed: 13px;
+$padding-3xmed: 14px;
+$padding-2xmed: 15px;
+$padding-xmed: 17px;
+$padding-med: 18px;
+
+
+$padding-4xlrg: 19px;
+$padding-3xlrg: 20px;
+$padding-5xlrg: 22px;
+$padding-2xlrg: 25px;
+$padding-xlrg: 30px;
+$padding-lrg: 31px;
+
+$padding-huge: 55px;
+$padding-xhuge: 65px;
+
+//margins
+$margin-4xsml: 8px;
+$margin-3xsml: 9px;
+$margin-2xsml: 10px;
+$margin-xsml: 11px;
+$margin-sml: 12px;
+
+$margin-4xmed: 13px;
+$margin-3xmed: 14px;
+$margin-2xmed: 15px;
+$margin-xmed: 17px;
+$margin-med: 18px;
+
+$margin-4xlrg: 19px;
+$margin-3xlrg: 20px;
+$margin-2xlrg: 25px;
+$margin-xlrg: 30px;
+$margin-lrg: 31px;
+$margin-slrg: 32px;
+
+$margin-xhuge: 55px;
+
+//border radius
+$radius-4xsml: 8px;
+$radius-3xsml: 9px;
+$radius-2xsml: 10px;
+$radius-xsml: 11px;
+$radius-sml: 12px;
+
+$radius-4xmed: 13px;
+$radius-3xmed: 14px;
+$radius-2xmed: 15px;
+$radius-xmed: 17px;
+$radius-med: 18px;
+
+//Colors
+$black: black;
+$grey-black: rgba(2, 23, 36, 0.75);
+$darkgrey: #565656;
+$lightgrey: #BFBFBF;
+$lightergrey: #CBCBCB;
+$D9Grey: #D9D9D9;
+$ashgrey: rgba(26, 26, 26, 0.24);
+$orange: #F08222;
+$darkblue: #0D4F77;
+$lightblue: #2C99CA;
+$clearblue:#E7EEF2;
+$offwhite:#F6F7FA;
+$white: white;
+
+
+//Fonts
+$Inter-Font: 'Inter', sans-serif;
+$xsml-weight: 200;
+$sml-weight: 300;
+$med-weight: 400;
+$lrg-weight: 500;
+$xlrg-weight: 600;
+
+$smaller-xsml: 11px;
+$smaller-sml: 12px;
+$smaller-med: 13px;
+$smaller-lrg: 14px;
+$smaller-xlrg: 15px;
+$smaller-xxlrg: 16px;
+$smaller-3xlrg: 18px;
+
+
+$med-2xsml: 20px;
+$med-4xsml: 24px;
+$med-xsml: 25px;
+$med-3xsml: 32px;
+$med-sml: 35px;
+$med-med: 55px;
+
+// $lrg-one
+$lrg-two: 70px;
+
+//Flex mixins
+@mixin FlexCenter($direction, $sec-align, $item-align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $sec-align;
+    align-items: $item-align;
+}
+
+//Font mixins
+@mixin InterFontVal($weight, $size, $textcolor, $lineheight) {
+    font-family: 'Inter', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    color: $textcolor;
+    line-height: $lineheight;
+}
+
+@mixin AbelFontVal($weight, $size, $textcolor, $lineheight, $decoration) {
+    font-family: 'Abel', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    color: $textcolor;
+    line-height: $lineheight;
+    text-decoration: $decoration;
+}
+
+//Component mixins
+@mixin NoBorderBtn ($border, $backgroundColor) {
+    border: $border;
+    background-color: $backgroundColor;
+}
+
+@mixin BorderBtn ($border, $backgroundColor, $borderRadius, $margin, $padding) {
+    border: $border;
+    background-color: $backgroundColor;
+    border-radius: $borderRadius;
+    margin: $margin;
+    padding: $padding;
+}

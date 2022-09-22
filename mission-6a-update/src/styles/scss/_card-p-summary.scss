@@ -1,0 +1,125 @@
+@import './variables';
+
+.p-summary {
+    @include FlexCenter(column, center, center);
+    padding: 27px 0px 23px 0px;
+    border-style: solid;
+    border-radius: $radius-4xsml;
+    border-color: $darkblue;
+    width: 310px;
+    max-height: 507px;
+    margin: 0px 9px 0px 9px;
+    // font-size: 0;
+
+    h1 {
+        @include AbelFontVal($med-weight, $smaller-xsml, $darkblue, $med-4xsml, none);
+        flex-wrap: wrap;
+    }
+
+}
+
+.p-summaryImg {
+    width: 195px;
+    height: auto;
+
+    img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+}
+
+.p-features {
+    @include FlexCenter(row, center, center);
+    flex-wrap: wrap;
+
+}
+
+.p-feat-icon {
+    @include FlexCenter(row, none, center);
+    flex-wrap: wrap;
+    width: 214px;
+    height: 30px;
+    padding: 7px;
+
+    img {
+        max-height: 28px;
+    }
+    p {
+        @include AbelFontVal($lrg-weight, $smaller-3xlrg, $black, $med-2xsml, none);
+        padding-left: $padding-sml
+    }
+    h3 {
+        @include AbelFontVal($med-weight, $smaller-3xlrg, $darkblue, $med-2xsml, none);
+        padding-left: $padding-sml
+    }
+}
+
+.p-label {
+    @include FlexCenter(row, space-between, baseline);
+    // padding: 0 36px;
+}
+
+.p-make {
+    
+    @include FlexCenter(column, center, flex-start);
+    
+   
+
+
+    h1 {
+        @include AbelFontVal($med-weight,$med-2xsml, $darkblue,none, none);
+        margin: $no-margins;
+    }
+    h3 {
+        @include AbelFontVal($sml-weight, $smaller-xsml, $darkblue, $smaller-sml, none);
+        margin: $no-margins;
+    }
+}
+
+.p-price {
+    @include FlexCenter(column, space-between, baseline);
+    // height: auto;
+    padding-left: 140px;
+    h1 {
+        @include AbelFontVal($med-weight,$med-2xsml, $orange, none, none);
+        margin: $no-margins;
+    }
+    
+
+    h3 {
+        @include AbelFontVal($sml-weight, $smaller-xsml, $lightblue, $smaller-sml, line-through);
+        margin: $no-margins;
+    }
+}
+
+.p-footer {
+    @include FlexCenter(row, space-between, center);
+    width:290px;
+    padding:39px 0 0 0; 
+}
+
+.p-orange-font {
+    @include FlexCenter (row, center, center);
+
+    .compare {
+        padding: 0 $smaller-sml;
+
+        @include NoBorderBtn (none, $white);
+        @include InterFontVal($xlrg-weight, $smaller-lrg, $orange, $med-3xsml);
+
+    }
+
+}
+
+.p-orange-filled {
+    @include FlexCenter (row, center, center);
+    @include BorderBtn (2px solid $ashgrey, $orange, 1px, $no-margins, 0);
+
+    .cart-text {
+        @include NoBorderBtn (none, $orange);
+        @include InterFontVal($xlrg-weight, $smaller-lrg, $white, 0);
+        // color: $white;
+        // padding-left: $padding-sml;
+    }
+}

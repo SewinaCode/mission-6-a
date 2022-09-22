@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
+.headerimg {
+  width: 100%;
+  margin: 0px;
+  display: block;
+}
+
+.breadcrumbs-sec {
+  background-color: rgba(2, 23, 36, 0.75);
+  padding: 8px 0px;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 0px;
+  padding: 0px 31px;
+}
+.breadcrumbs img {
+  width: 18px;
+  height: 18px;
+}
+.breadcrumbs .arrow-img {
+  width: 8px;
+  height: 8px;
+}
+.breadcrumbs h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 500;
+  font-weight: 16px;
+  color: #BFBFBF;
+  line-height: 24px;
+  padding: 0px 12px;
+  margin: 0px;
+}
+.breadcrumbs .selected-laptop {
+  color: #F08222;
+}/*# sourceMappingURL=PBMechHeader.css.map */

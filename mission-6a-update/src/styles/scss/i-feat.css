@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
+.feat-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 19px;
+}
+.feat-icon .ft-txt {
+  padding: 0 9px;
+}
+.feat-icon .abel-25 {
+  font-family: "Abel", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: black;
+  line-height: 32px;
+  text-decoration: none;
+  margin: 0px;
+}
+.feat-icon .abel-35 {
+  font-family: "Abel", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #0D4F77;
+  line-height: 100%;
+  text-decoration: none;
+  margin: 0px;
+}
+.feat-icon .abel-18 {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2C99CA;
+  line-height: 100%;
+  text-decoration: none;
+  margin: 0px;
+
+}/*# sourceMappingURL=i-feat.css.map */
+
+}
+
+.tabs-orange {
+  background-color: #F08222;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 13px 0;
+  -webkit-box-shadow: 8px 0px 2px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: 8px 0px 2px 0px rgba(0, 0, 0, 0.13);
+  width: 209px;
+}
+
+.tabs-orange .tab-name {
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #0D4F77;
+  line-height: 32px;
+  text-decoration: none;
+  margin: 0px;
+  text-align: center;
+}
+
+.tabs-grey {
+  background-color: #CBCBCB;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 13px 0;
+  margin-left: 20px;
+  width: 209px;
+}
+
+.tabs-grey .grey-name {
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #565656;
+  line-height: 32px;
+  text-decoration: none;
+  margin: 0px;
+  text-align: center;
+}
+
+.overall-crd {
+  width: 294px;
+  margin: 19px 32px;
+}
+
+.overall-crd .crd-title {
+  background-color: #D9D9D9;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+}
+
+.overall-crd .crd-title h4 {
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  line-height: 32px;
+  text-decoration: none;
+  margin: 0px;
+}
+
+.overall-crd .crd-desc {
+  background-color: #E7EEF2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+}
+
+.overall-crd .crd-desc h4 {
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #0D4F77;
+  line-height: 24px;
+  text-decoration: none;
+  margin: 0px;
+}
+/*# sourceMappingURL=i-feat.css.map */
+

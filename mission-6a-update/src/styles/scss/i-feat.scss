@@ -1,0 +1,85 @@
+@import "./variables";
+
+.feat-icon {
+    @include FlexCenter(row, center, center);
+    margin: 0 $margin-4xlrg;
+
+    .ft-txt {
+        padding: 0 $padding-3xsml;
+    }
+
+    .abel-25 {
+        @include AbelFontVal($med-weight, $med-xsml, $black, $med-3xsml, none);
+        margin: $no-margins;
+    }
+
+    .abel-35 {
+        @include AbelFontVal($med-weight, $med-sml, $darkblue, 100%, none);
+        margin: $no-margins;
+    }
+
+    .abel-18 {
+        @include AbelFontVal($med-weight, $smaller-3xlrg, $lightblue, 100%, none);
+        margin: $no-margins;
+    }
+}
+
+.tabs-orange {
+    background-color: $orange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: $padding-4xmed 0;
+    box-shadow: 8px 0px 2px 0px rgba(0,0,0,0.13);
+    width: 209px;
+
+    .tab-name {
+        @include AbelFontVal($med-weight, $med-xsml, $darkblue, $med-3xsml, none);
+        margin: $no-margins;
+        text-align: center;
+    }
+}
+
+.tabs-grey {
+    background-color: $lightergrey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: $padding-4xmed 0;
+    margin-left: $margin-3xlrg;
+    width: 209px;
+
+    .grey-name {
+        @include AbelFontVal($med-weight, $med-xsml, $darkgrey, $med-3xsml, none);
+        margin: $no-margins;
+        text-align: center;
+    }
+}
+
+.overall-crd {
+    width: 294px;
+    margin: $margin-4xlrg $margin-slrg;
+
+    .crd-title {
+        background-color: $D9Grey;
+        border-top-left-radius: $padding-2xsml;
+        border-top-right-radius: $padding-2xsml;
+        padding: $padding-2xsml;
+
+
+        h4 {
+            @include AbelFontVal($med-weight, $med-4xsml, $black, $med-3xsml, none);
+            margin: $no-margins;
+        }
+    }
+
+    .crd-desc {
+        background-color: $clearblue;
+        border-bottom-left-radius: $padding-2xsml;
+        border-bottom-right-radius: $padding-2xsml;
+        padding: $padding-2xsml;
+
+        h4 {
+            @include AbelFontVal($med-weight, $smaller-3xlrg, $darkblue, $med-4xsml, none);
+            margin: $no-margins;
+        }
+    }
+}
