@@ -5,10 +5,7 @@
 /.pnp
 .pnp.js
 
-.sass-cache/
-*.css.map
-*.sass.map
-*.scss.map
+/src/styles/scss/*.css.map
 
 
 # testing

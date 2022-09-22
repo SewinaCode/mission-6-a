@@ -1,1 +1,0 @@
-{"version":3,"sources":["_variables.scss","LoadingStatus.module.scss","LoadingStatus.module.css"],"names":[],"mappings":"AAAQ,2GAAA;ACER;EACE,wBAAA;EAAA,gBAAA;EACE,QAAA;EACA,UAAA;ACAJ;;ADGA;EACE,WAAA;EACA,YAAA;EACA,0BAAA;EACA,yBAAA;EACA,kBAAA;EACA,sDAAA;UAAA,8CAAA;EACA,YAAA;ACAF;;ADGA;EACE;IACE,wBAAA;ECAF;AACF;;ADHA;EACE;IACE,wBAAA;ECAF;AACF","file":"LoadingStatus.module.css"}
