@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Card from "../pages/sections/parts/product-summary-card";
 import Loading from "./Loading";
 import apiClient from "../utils/http-common"
+import quickSort from "../utils/quickSortStrArray"
 
 
 function Products() {
@@ -17,12 +18,12 @@ function Products() {
     });
   }, [])
 
-
+ 
   return isLoading ? (
     <Loading />
   ) : (
     <>
-      {productList.map((product) => {
+        {quickSort(productList, "name").map((product) => {
         console.log(product.name)
         return (
           <Card
