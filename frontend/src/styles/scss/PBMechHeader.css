@@ -11,35 +11,23 @@
 }
 
 .breadcrumbs {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
   margin: 0px;
   padding: 0px 31px;
 }
-
 .breadcrumbs img {
   width: 18px;
   height: 18px;
 }
-
 .breadcrumbs .arrow-img {
   width: 8px;
   height: 8px;
 }
-
 .breadcrumbs h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 500;
   font-weight: 16px;
   color: #BFBFBF;
@@ -47,8 +35,6 @@
   padding: 0px 12px;
   margin: 0px;
 }
-
 .breadcrumbs .selected-laptop {
   color: #F08222;
-}
-/*# sourceMappingURL=PBMechHeader.css.map */
+}/*# sourceMappingURL=PBMechHeader.css.map */

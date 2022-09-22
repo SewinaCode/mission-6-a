@@ -1,3 +1,4 @@
+
 {
     "version": 3,
     "mappings": "ACAA,OAAO,CAAC,mGAAI;ADEZ,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,KAAK;EACd,WAAW,EC6BA,IAAI;CD5BlB",
@@ -8,3 +9,4 @@
     "names": [],
     "file": "footer.css"
 }
+

@@ -1,8 +1,9 @@
+@import './variables';
+
 .loadingContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 50vh;
+  position: sticky;
+    top: 10%;
+    right:35%;
 }
 
 .loadingCircle {

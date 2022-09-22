@@ -1,3 +1,4 @@
+
 {
     "version": 3,
     "mappings": "ACAA,OAAO,CAAC,mGAAI;ADGZ,AAAA,gBAAgB,CAAA;ECoHZ,OAAO,EAAE,IAAI;EACb,cAAc,EDpHO,GAAG;ECqHxB,eAAe,EDrHW,MAAM;ECsHhC,WAAW,EDtHuB,MAAM;EACxC,OAAO,EAAE,CAAC,CC+BC,IAAI;CD9BlB",
@@ -8,3 +9,4 @@
     "names": [],
     "file": "product-pic-det.css"
 }
+

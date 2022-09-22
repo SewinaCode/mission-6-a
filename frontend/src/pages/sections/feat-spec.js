@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/scss/styles.scss";
+
 import { FeatureIcon, SpecTabOrg, SpecTabGrey } from "../../components/i-feat";
 import SpecsExpand from "./parts/specs-expand";
 import TagIcon from "../../assets/tag-icon 1.png";

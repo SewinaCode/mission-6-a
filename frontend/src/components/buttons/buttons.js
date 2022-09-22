@@ -44,12 +44,31 @@ function BackBtn() {
   );
 }
 
+
+function PcompareWPlus() {
+  return (
+    <div className="p-orange-font">
+      <img src={ComparePlus} alt="compare-icon" />
+      <button className="compare">Compare</button>
+    </div>
+    );
+}
+
 function UnCheckbox() {
   return (
     <div className="uncheckbox">
       <input type="checkbox" />
       <span className="geekmark"></span>
     </div>
+  );
+}
+
+function PaddtoCart() {
+  return (
+    <div className="p-orange-filled">
+      <img src={Cart} alt="add-to-cart-icon" />
+      <button className="cart-text">Add to Cart</button>
+     </div>
   );
 }
 
@@ -64,4 +83,5 @@ function Checkbox() {
   );
 }
 
-export { CompareWPlus, AddtoCart, AddAlltoCart, BackBtn, UnCheckbox, Checkbox };
+
+export { PcompareWPlus, PaddtoCart,CompareWPlus, AddtoCart, AddAlltoCart, BackBtn, UnCheckbox, Checkbox };
