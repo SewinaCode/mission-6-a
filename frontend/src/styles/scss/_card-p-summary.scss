@@ -1,14 +1,14 @@
 @import './variables';
 
 .p-summary {
-    @include FlexCenter(column, center, center);
-    padding: 27px 0px 23px 0px;
+    @include FlexCenter(column, none, none);
+    padding: 22px 0px 23px 0px;
     border-style: solid;
     border-radius: $radius-4xsml;
     border-color: $darkblue;
     width: 310px;
     max-height: 507px;
-    margin: 0px 9px 0px 9px;
+    margin: 0px 0px 36px 25px;
     // font-size: 0;
 
     h1 {
@@ -21,6 +21,7 @@
 .p-summaryImg {
     width: 195px;
     height: auto;
+    align-self: center;
 
     img {
         max-width: 100%;
@@ -45,10 +46,12 @@
     img {
         max-height: 28px;
     }
+
     p {
         @include AbelFontVal($lrg-weight, $smaller-3xlrg, $black, $med-2xsml, none);
         padding-left: $padding-sml
     }
+
     h3 {
         @include AbelFontVal($med-weight, $smaller-3xlrg, $darkblue, $med-2xsml, none);
         padding-left: $padding-sml
@@ -56,47 +59,42 @@
 }
 
 .p-label {
-    @include FlexCenter(row, space-between, baseline);
-    // padding: 0 36px;
-}
+    @include FlexCenter(row, space-between,none);
+    margin:0 20px;
 
-.p-make {
-    
-    @include FlexCenter(column, center, flex-start);
-    
-   
+    .p-make {
 
-
-    h1 {
-        @include AbelFontVal($med-weight,$med-2xsml, $darkblue,none, none);
-        margin: $no-margins;
+       @include FlexCenter(column, space-between, baseline);
+        h1 {
+            @include AbelFontVal($med-weight, $med-2xsml, $darkblue, none, none);
+            margin: $no-margins;
+        }
+        h3 {
+            @include AbelFontVal($sml-weight, $smaller-xsml, $darkblue, $smaller-sml, none);
+            margin: $no-margins;
+        }
     }
-    h3 {
-        @include AbelFontVal($sml-weight, $smaller-xsml, $darkblue, $smaller-sml, none);
-        margin: $no-margins;
-    }
-}
 
-.p-price {
-    @include FlexCenter(column, space-between, baseline);
-    // height: auto;
-    padding-left: 140px;
-    h1 {
-        @include AbelFontVal($med-weight,$med-2xsml, $orange, none, none);
-        margin: $no-margins;
-    }
-    
+    .p-price {
+        @include FlexCenter(column, space-between, baseline);
+        h1 {
+            @include AbelFontVal($med-weight, $med-2xsml, $orange, none, none);
+            margin: $no-margins;
+        }
 
-    h3 {
-        @include AbelFontVal($sml-weight, $smaller-xsml, $lightblue, $smaller-sml, line-through);
-        margin: $no-margins;
+
+        h3 {
+            @include AbelFontVal($sml-weight, $smaller-xsml, $lightblue, $smaller-sml, line-through);
+            margin: $no-margins;
+        }
     }
 }
 
 .p-footer {
     @include FlexCenter(row, space-between, center);
-    width:290px;
-    padding:39px 0 0 0; 
+    margin: 0 20px;
+    padding:20px 0 0 0;
+
 }
 
 .p-orange-font {

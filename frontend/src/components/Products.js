@@ -23,17 +23,17 @@ function Products() {
     <Loading />
   ) : (
     <>
-        {quickSort(productList, "name").map((product) => {
+        {quickSort(productList, "product_name").map((product) => {
         console.log(product.name)
         return (
           <Card
             key={product._id}
-            name={product.name}
-            model={product.model}
-            price={product.saleprice | ""}
-            was={product.stockprice |"no stock"}
-            imageUrl={product.ImgURL}
-            specfications={product.specfications}
+            name={product.product_name}
+            model={product.minor_feat}
+            price={product.current_price|1500}
+            was={product.stock_price|1200}
+            imageUrl={product.imgURL}
+            specfications={product.specfications|"no specs"}
           />
         );
       })}
