@@ -54,31 +54,32 @@
     }
 }
 
-.rec-org-border {
-    @include BorderBtn (12px solid $orange, transparent, none, none, 68px 77px);
-    border-top-right-radius: $radius-2xsml;
-    border-bottom-right-radius: $radius-2xsml;
-    border-bottom-left-radius: $radius-2xsml;
-    box-shadow: 3px 4px 12px 4px rgba(0,0,0,0.25);
-    
-}
-
 .overall-crd {
-    border-radius: $radius-2xsml;
+    width: 294px;
+    margin: $margin-4xlrg $margin-slrg;
 
     .crd-title {
         background-color: $D9Grey;
+        border-top-left-radius: $padding-2xsml;
+        border-top-right-radius: $padding-2xsml;
+        padding: $padding-2xsml;
+
 
         h4 {
             @include AbelFontVal($med-weight, $med-4xsml, $black, $med-3xsml, none);
+            margin: $no-margins;
         }
     }
 
     .crd-desc {
         background-color: $clearblue;
+        border-bottom-left-radius: $padding-2xsml;
+        border-bottom-right-radius: $padding-2xsml;
+        padding: $padding-2xsml;
 
         h4 {
-            @include AbelFontVal($med-weight, $smaller-3xlrg, $darkblue, $med-2xsml, none);
+            @include AbelFontVal($med-weight, $smaller-3xlrg, $darkblue, $med-4xsml, none);
+            margin: $no-margins;
         }
     }
 }

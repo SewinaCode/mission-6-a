@@ -1,18 +1,13 @@
 import React from "react";
 import "../../styles/scss/styles.scss";
-import {
-  FeatureIcon,
-  SpecTabOrg,
-  SpecTabGrey,
-  SpecsExpand,
-  BreakdownCard,
-} from "../../components/i-feat";
+import { FeatureIcon, SpecTabOrg, SpecTabGrey } from "../../components/i-feat";
+import SpecsExpand from "./parts/specs-expand";
 import TagIcon from "../../assets/tag-icon 1.png";
 
 export default function FeatSpec() {
   return (
     <section>
-      <div>
+      <div className="linear-bg">
         <div className="features">
           <FeatureIcon
             image={TagIcon}
@@ -52,12 +47,7 @@ export default function FeatSpec() {
             <SpecTabGrey tabName="Delivery & Pick up" />
             <SpecTabGrey tabName="Return & Warranty" />
           </div>
-          <SpecsExpand>
-            <BreakdownCard
-              title="Brand"
-              desc="Intel Core i3-1115G4 (2C / 4T, 3.0 / 4.1GHz, 6MB)"
-            />
-          </SpecsExpand>
+          <SpecsExpand />
         </div>
       </div>
     </section>

@@ -1,0 +1,17 @@
+@import "./variables";
+
+.sec-pad-consist {
+    padding: 0 54px;
+}
+
+.c-d-heading {
+    @include AbelFontVal($med-weight, $med-sml, $lightblue, 45px, none)
+}
+
+.compare-section {
+    @include FlexCenter(row, space-between, center);
+
+    .the-deals {
+        padding-left: 0;
+    }
+}

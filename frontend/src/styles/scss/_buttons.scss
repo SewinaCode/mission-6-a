@@ -3,7 +3,7 @@
 .orange-font {
     
     @include FlexCenter (row, center, baseline);
-    margin-left: $padding-huge;
+    // margin-left: $padding-huge;
 
     .compare {
         padding: 0 $smaller-sml;
@@ -17,6 +17,7 @@
 .orange-filled {
     @include FlexCenter (row, center, center);
     @include BorderBtn (5px solid $ashgrey, $orange, $radius-2xsml, $no-margins, 8.5px $padding-2xlrg);
+    margin-top: $margin-xlrg;
 
     .cart-text {
         @include NoBorderBtn (none, $orange);
@@ -48,5 +49,38 @@
         p {
             @include AbelFontVal($med-weight, $smaller-3xlrg, $darkblue, $med-4xsml, none);
         }
+    }
+}
+
+.uncheckbox {
+    margin-right: $margin-slrg;
+
+
+    input {
+        cursor: pointer;
+        visibility: hidden;
+    }
+    
+    .geekmark {
+        cursor: pointer;
+        position: absolute;
+        
+        right: 58.7%;
+        @include BorderBtn (4px solid $orange, $white, $radius-4xsml, none, 8px);
+    }
+}
+
+.checkbox {
+    margin-right: $margin-slrg;
+
+    input {
+        cursor: pointer;
+        visibility: hidden;
+    }
+    
+    .geekmark {
+        cursor: pointer;
+
+        @include BorderBtn (4px solid $orange, $orange, $radius-4xsml, none, 1px);
     }
 }

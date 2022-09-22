@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;300;400;500&display=swap");
-section {
+.linear-bg {
   padding: 0 55px;
   background: -webkit-gradient(linear, left top, left bottom, from(#E7F0F5), to(rgba(231, 240, 245, 0)));
   background: linear-gradient(#E7F0F5 0%, rgba(231, 240, 245, 0) 100%);
 }
 
-section .features {
+.linear-bg .features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

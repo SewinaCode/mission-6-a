@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACAA,OAAO,CAAC,mGAAI;ADGZ,AAAA,gBAAgB,CAAA;ECgHZ,OAAO,EAAE,IAAI;EACb,cAAc,EDhHO,GAAG;ECiHxB,eAAe,EDjHW,MAAM;ECkHhC,WAAW,EDlHuB,MAAM;EACxC,OAAO,EAAE,CAAC,CC8BC,IAAI;CD7BlB",
+    "mappings": "ACAA,OAAO,CAAC,mGAAI;ADGZ,AAAA,gBAAgB,CAAA;ECoHZ,OAAO,EAAE,IAAI;EACb,cAAc,EDpHO,GAAG;ECqHxB,eAAe,EDrHW,MAAM;ECsHhC,WAAW,EDtHuB,MAAM;EACxC,OAAO,EAAE,CAAC,CC+BC,IAAI;CD9BlB",
     "sources": [
         "product-pic-det.scss",
         "_variables.scss"

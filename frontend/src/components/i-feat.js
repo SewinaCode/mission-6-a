@@ -1,9 +1,5 @@
 import React from "react";
 import "../styles/scss/styles.scss";
-// import Specification from "../assets/specifications.png";
-// import Features from "../assets/features.png";
-// import Delivery from "../assets/delivery.png";
-// import Return from "../assets/returns.png";
 
 function FeatureIcon({ image, name, top, middle, bottom }) {
   return (
@@ -34,17 +30,6 @@ function SpecTabGrey({ tabName }) {
   );
 }
 
-function SpecsExpand() {
-  return (
-    <div className="rec-org-border">
-      <BreakdownCard
-        title="Brand"
-        desc="Intel Core i3-1115G4 (2C / 4T, 3.0 / 4.1GHz, 6MB)"
-      />
-    </div>
-  );
-}
-
 function BreakdownCard({ title, desc }) {
   return (
     <div className="overall-crd">
@@ -58,4 +43,4 @@ function BreakdownCard({ title, desc }) {
   );
 }
 
-export { FeatureIcon, SpecTabOrg, SpecTabGrey, SpecsExpand, BreakdownCard };
+export { FeatureIcon, SpecTabOrg, SpecTabGrey, BreakdownCard };

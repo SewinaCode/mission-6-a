@@ -2,6 +2,7 @@ import React from "react";
 import ComparePlus from "../../assets/compare-icon.png";
 import Cart from "../../assets/cart.png";
 import OrangeArrow from "../../assets/left-org-arrow.png";
+import Tick from "../../assets/tick.png";
 import "../../styles/scss/styles.scss";
 
 function CompareWPlus() {
@@ -43,4 +44,24 @@ function BackBtn() {
   );
 }
 
-export { CompareWPlus, AddtoCart, AddAlltoCart, BackBtn };
+function UnCheckbox() {
+  return (
+    <div className="uncheckbox">
+      <input type="checkbox" />
+      <span className="geekmark"></span>
+    </div>
+  );
+}
+
+function Checkbox() {
+  return (
+    <div className="checkbox">
+      <input type="checkbox" />
+      <span className="geekmark">
+        <img src={Tick} alt="checked-tick" />
+      </span>
+    </div>
+  );
+}
+
+export { CompareWPlus, AddtoCart, AddAlltoCart, BackBtn, UnCheckbox, Checkbox };
