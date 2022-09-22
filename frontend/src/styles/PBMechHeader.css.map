@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAQA,AAAA,UAAU,CAAC;EACP,KAAK,EARI,IAAI;EASb,MAAM,EARG,GAAG;CASf;;AAED,AAAA,UAAU,CAAC;EACP,gBAAgB,EATZ,KAAK;CAUZ",
-    "sources": [
-        "PBMechHeader.scss"
-    ],
-    "names": [],
-    "file": "PBMechHeader.css"
-}

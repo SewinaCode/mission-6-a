@@ -1,7 +1,0 @@
-/* Styling for CardPage */
-.page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5% 25% 1% 25%;
-}
