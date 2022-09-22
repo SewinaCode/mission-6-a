@@ -1,1 +1,12 @@
-{"version":3,"sources":["_variables.scss","product-pic-det.scss","product-pic-det.css"],"names":[],"mappings":"AAAQ,2GAAA;ACGR;ED6GI,aAAA;EACA,mBC7GqB;ED8GrB,uBC9G0B;ED+G1B,mBC/GkC;EAClC,eAAA;ACEJ","file":"product-pic-det.css"}
+
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,mGAAI;ADGZ,AAAA,gBAAgB,CAAA;ECoHZ,OAAO,EAAE,IAAI;EACb,cAAc,EDpHO,GAAG;ECqHxB,eAAe,EDrHW,MAAM;ECsHhC,WAAW,EDtHuB,MAAM;EACxC,OAAO,EAAE,CAAC,CC+BC,IAAI;CD9BlB",
+    "sources": [
+        "product-pic-det.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "product-pic-det.css"
+}
+

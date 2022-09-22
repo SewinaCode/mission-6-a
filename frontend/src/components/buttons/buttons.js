@@ -2,6 +2,7 @@ import React from "react";
 import ComparePlus from "../../assets/compare-icon.png";
 import Cart from "../../assets/cart.png";
 import OrangeArrow from "../../assets/left-org-arrow.png";
+import Tick from "../../assets/tick.png";
 import "../../styles/scss/styles.scss";
 
 function CompareWPlus() {
@@ -22,6 +23,15 @@ function AddtoCart() {
   );
 }
 
+function AddAlltoCart() {
+  return (
+    <div className="orange-filled">
+      <img src={Cart} alt="add-to-cart-icon" />
+      <button className="cart-text">Add All Item To Cart</button>
+    </div>
+  );
+}
+
 function BackBtn() {
   return (
     <div className="back-button">
@@ -34,11 +44,21 @@ function BackBtn() {
   );
 }
 
+
 function PcompareWPlus() {
   return (
     <div className="p-orange-font">
       <img src={ComparePlus} alt="compare-icon" />
       <button className="compare">Compare</button>
+    </div>
+    );
+}
+
+function UnCheckbox() {
+  return (
+    <div className="uncheckbox">
+      <input type="checkbox" />
+      <span className="geekmark"></span>
     </div>
   );
 }
@@ -48,8 +68,20 @@ function PaddtoCart() {
     <div className="p-orange-filled">
       <img src={Cart} alt="add-to-cart-icon" />
       <button className="cart-text">Add to Cart</button>
+     </div>
+  );
+}
+
+function Checkbox() {
+  return (
+    <div className="checkbox">
+      <input type="checkbox" />
+      <span className="geekmark">
+        <img src={Tick} alt="checked-tick" />
+      </span>
     </div>
   );
 }
 
-export { PcompareWPlus, PaddtoCart, CompareWPlus,AddtoCart, BackBtn };
+
+export { PcompareWPlus, PaddtoCart,CompareWPlus, AddtoCart, AddAlltoCart, BackBtn, UnCheckbox, Checkbox };

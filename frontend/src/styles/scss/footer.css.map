@@ -1,1 +1,12 @@
-{"version":3,"sources":["_variables.scss","footer.scss","footer.css"],"names":[],"mappings":"AAAQ,2GAAA;ACER;EACI,cAAA;EACA,iBD6BW;AE7Bf","file":"footer.css"}
+
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,mGAAI;ADEZ,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,KAAK;EACd,WAAW,EC6BA,IAAI;CD5BlB",
+    "sources": [
+        "footer.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "footer.css"
+}
+

@@ -14,4 +14,33 @@ function FeatureIcon({ image, name, top, middle, bottom }) {
   );
 }
 
-export default FeatureIcon;
+function SpecTabOrg({ tabName }) {
+  return (
+    <div className="tabs-orange">
+      <h3 className="tab-name">{tabName}</h3>
+    </div>
+  );
+}
+
+function SpecTabGrey({ tabName }) {
+  return (
+    <div className="tabs-grey">
+      <h3 className="grey-name">{tabName}</h3>
+    </div>
+  );
+}
+
+function BreakdownCard({ title, desc }) {
+  return (
+    <div className="overall-crd">
+      <div className="crd-title">
+        <h4>{title}</h4>
+      </div>
+      <div className="crd-desc">
+        <h4>{desc}</h4>
+      </div>
+    </div>
+  );
+}
+
+export { FeatureIcon, SpecTabOrg, SpecTabGrey, BreakdownCard };

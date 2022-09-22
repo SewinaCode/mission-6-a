@@ -1,1 +1,12 @@
-{"version":3,"sources":["_variables.scss","product-pic.scss","product-pic.css"],"names":[],"mappings":"AAAQ,2GAAA;ACGR;ED6GI,aAAA;EACA,mBC7GqB;ED8GrB,uBC9G0B;ED+G1B,mBC/GkC;EAClC,mBD6BU;AE3Bd;ADAI;EDyGA,aAAA;EACA,mBCzGyB;ED0GzB,uBC1G8B;ED2G9B,mBC3GsC;EAClC,eAAA;ACKR","file":"product-pic.css"}
+
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,mGAAI;ADGZ,AAAA,iBAAiB,CAAA;ECoHb,OAAO,EAAE,IAAI;EACb,cAAc,EDpHO,GAAG;ECqHxB,eAAe,EDrHW,MAAM;ECsHhC,WAAW,EDtHuB,MAAM;EACxC,aAAa,EC6BH,IAAI;CDvBjB;;AARD,AAII,iBAJa,CAIb,aAAa,CAAC;ECgHd,OAAO,EAAE,IAAI;EACb,cAAc,EDhHW,GAAG;ECiH5B,eAAe,EDjHe,MAAM;ECkHpC,WAAW,EDlH2B,MAAM;EACxC,OAAO,EAAE,CAAC,CC2BH,IAAI;CD1Bd",
+    "sources": [
+        "product-pic.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "product-pic.css"
+}
+
