@@ -1,0 +1,14 @@
+@import './variables';
+
+
+.product-pic-det{
+    @include FlexCenter (row, center, center);
+    padding:0 $padding-huge;
+    padding-bottom: 51px;
+}
+
+.separate {
+    width: 100%;
+    background-color: $offwhite;
+    padding: $padding-2xsml 0;
+}
