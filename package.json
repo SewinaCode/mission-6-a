@@ -46,6 +46,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.54.9"
+    "jest": "^27.5.1",
+    "sass": "^1.54.9",
+    "typescript": "^4.8.3"
   }
 }
