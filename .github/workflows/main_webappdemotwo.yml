@@ -33,6 +33,10 @@ jobs:
         with:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
+          
+      - name: Install dependencies
+        run: dotnet restore
+        working-directory: src/App.js
 
   deploy:
     runs-on: windows-latest
