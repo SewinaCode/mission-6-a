@@ -20,7 +20,11 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '6.0.x'
-          include-prerelease: true
+          include-prerelease: true 
+          
+      - name: Install dependencies
+        run: dotnet restore
+        working-directory: src/App.js
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
@@ -33,10 +37,6 @@ jobs:
         with:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
-          
-      - name: Install dependencies
-        run: dotnet restore
-        working-directory: src/App.js
 
   deploy:
     runs-on: windows-latest
